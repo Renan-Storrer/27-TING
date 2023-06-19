@@ -19,6 +19,5 @@ def exists_word(word, instance):
     return [processed_data]
 
 
-
 def search_by_word(word, instance):
     """Aqui irá sua implementação"""
