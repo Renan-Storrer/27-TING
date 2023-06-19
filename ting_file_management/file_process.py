@@ -1,6 +1,7 @@
 from .file_management import txt_importer
 import sys
 
+
 def process(path_file, instance):
     processed_data = {
             "nome_do_arquivo": path_file,
