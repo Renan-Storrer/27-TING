@@ -9,9 +9,9 @@ def exists_word(word, instance):
                 list_1.append({"linha": i + 1})
 
     processed_data = {
+            "ocorrencias": list_1,
             "palavra": word,
             "arquivo": instance.search(index)["nome_do_arquivo"],
-            "ocorrencias": list_1,
         }
 
     if len(list_1) == 0:
